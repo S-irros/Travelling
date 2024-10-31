@@ -1,0 +1,231 @@
+.paymentPage {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fcfcfc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .paymentPage h2, h3 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .paymentSection {
+    margin-top: 20px;
+    width: 50%; 
+  }
+  
+  .paymentSection .contactDetailsHeader {
+    font-size: 25px;
+  }
+  
+  .paymentSection p {
+
+    margin-bottom: 30px;
+  }
+  
+  .paymentSection .headerInfo {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .paymentSection .headerInfo span {
+    color: rgb(219, 3, 3);
+    margin-right: 2px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .nameInfo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .firstName, .lastName {
+    flex: 1;
+  }
+  
+  .lastName {
+    margin-left: 8%;
+  }
+  
+  .couponHeader {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .couponHeader h6 {
+    position: relative;
+    top: 5px;
+    left: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .bookingReview {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    margin-left: 100px;
+    width: 30%;
+    height: auto;
+    box-shadow: 0px 0px 50px -30px gray;
+  }
+
+  .submitBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .payBtn {
+    width: 70%;
+    padding: 15px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: transform 0.3s ease;
+  }
+  
+  .payBtn:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transform: scale(1.1);
+    border: 1px solid black;
+  }
+  
+  .bookingReview .tourBookingDetails {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .bookingReview .tourBookingDetails h3 {
+    text-align: left;
+    width: 60%;
+    margin: 10px 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .bookingReview .tourBookingDetails img {
+    width: 150px;
+    height: 130px;
+    border-radius: 15px;
+  }
+  
+  .bookingReview a {
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .bookingReview a:hover {
+    color: #565656;
+  }
+  
+  .border {
+    border-bottom: 1px solid gainsboro;
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .bookingWordSpace {
+    margin-bottom: -10px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .bookingWordSpace h4 {
+    position: relative;
+    font-size: 13px;
+  }
+  
+  .bookingPricesDetails {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .bookingPricesDetails span {
+    font-weight: bold;
+  }
+  
+  .bookingPricesDetails p {
+    font-size: 14px;
+  }
+  
+  .totalPrice {
+    border-top: 1px solid rgb(190, 190, 190);
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: auto;
+    height: 70px;
+    position: relative;
+    background-color: #e8e8e8;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 22px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .totalPrice p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .cancellation {
+    position: relative;
+    top:20px;
+  }
+
+  .cancellation p {
+    width: 100% !important;
+  }
+  
+  .cancellation span {
+    margin-left: 5px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 2px;
+  }

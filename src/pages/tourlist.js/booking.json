@@ -1,0 +1,16 @@
+{
+    "Participants": {
+      "Adults": 2,
+      "Children": 1,
+      "Infants": 2
+    },
+    "Ages": {
+      "Adult": "13 - 99",
+      "Kid": "3 - 11",
+      "Infant": "0 - 2"
+    },
+    "Date": "2024-10-15",
+    "Time": "10:00 AM",
+    "Location": "Cairo"
+}
+  

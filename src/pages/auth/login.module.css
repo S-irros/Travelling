@@ -1,0 +1,132 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.login_Video {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.pa {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login_form {
+  position: absolute;
+  width: 47%;
+  height: 85%;
+  left: 2%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.back_btn {
+  position: relative;
+  right: 45.5%;
+  color: white !important;
+}
+
+.back_btn i {
+  color: white !important;
+}
+
+.back_btn label:hover {
+  cursor: pointer;
+  color: rgb(200, 200, 200);
+  border: 1px solid black;
+}
+
+.login_form h1 {
+  font-size: 60px;
+  margin: 10% 0;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.login_form i {
+  font-style: normal;
+  color: rgb(247, 148, 0);
+}
+
+.login_form input {
+  display: block;
+    border: none;
+    border-radius: 10px;
+    margin: 1% 0;
+    width: 50%;
+    font-size: 18px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.login_form input:focus {
+  outline: none;
+  /* border: 1px solid #94afeb; */
+  box-shadow: 0px 0px 3px 3px rgb(144, 144, 144);
+}
+
+.login_form button {
+  display: block;
+  width: 30%;
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid whitesmoke;
+  color: white;
+  background-color: #000000;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow:0 2px 5px rgb(0 0 0 / 30%);
+  transition: transform 0.3s ease;
+}
+.login_form button:hover{
+  background-color: whitesmoke;
+  color: black;
+  transform: scale(1.1);
+}
+
+.login_form .forget_Password {
+  margin: 3% 0;
+  width: 50%;
+}
+
+.login_form a {
+  width: 20%;
+  color: whitesmoke;
+}
+
+.login_form a:hover {
+  text-decoration: underline;
+  color: #0000e4;
+}
+
+@media (max-width: 600px) {
+.social-icons img {
+  width: 20%;
+}
+}
+
+
+  

@@ -1,0 +1,35 @@
+{
+    "tourName": "Scorpion Tour",
+    "overview": "Pyramids of Giza Tour, included tickets & Lunch & Egyptologist guide",
+    "description": "Enjoy a personalized tour of the Pyramids of Giza and find the tour option (out of three) that suits your needs. The comprehensive offer covers transfers, tickets, a tour guide, and lunch at a restaurant with a view of the pyramids. The second offer includes a guide and transfers, while the third provides transfers only. Experience the wonder of ancient Egypt, capture amazing photos, and create lasting memories. Book your trip now and step back 7,000 years in history!",
+    "duration": "1 Day",
+    "itinerary": "Cairo, Pyramids of Giza, Pyramids of Queens, Pyramids of Giza, Great Sphinx of Giza",
+    "newpriceForAdult": 20,
+    "newpriceForKid": 10,
+    "oldpriceForAdult": 35,
+    "oldpriceForKid": 25,
+    "discount": "20%",
+    "coverPhoto": "https://images.pexels.com/photos/15127306/pexels-photo-15127306/free-photo-of-pyramids-and-sphinx-statue-in-desert.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "gallery": ["https://images.pexels.com/photos/2402926/pexels-photo-2402926.jpeg?auto=compress&cs=tinysrgb&w=600", "https://images.pexels.com/photos/14435169/pexels-photo-14435169.jpeg?auto=compress&cs=tinysrgb&w=600"],
+    "reviews": [
+      {
+        "user": "John Doe",
+        "rating": 4,
+        "comment": "Amazing tour!"
+      },
+      {
+        "user": "Jane Doe",
+        "rating": 5,
+        "comment": "Wonderful experience!"
+      }
+    ],
+    "review-type":
+      {
+        "very good": 4
+      },
+    
+    "review-numbers": 2640,
+    "ages": "0-99",
+    "category": "Adventure, Historical, Family",
+    "live_guide": "Arabic, German, Russian, Portuguese, Japanese, English, Italian, French, Dutch, Spanish"
+  }

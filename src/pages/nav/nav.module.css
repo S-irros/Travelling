@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.otherPageNavbar {
+  background: none;
+  height: 200px;
+}
+
+#top {
+  width: 100% !important;
+  height: 750px !important;
+  background-color: aquamarine !important;
+  align-items: start;
+  background-image: url("./media/dbc93ebc-d2f0-4f62-9721-6a53dabddfaa\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.pages {
+  width: 100%;
+  display:inline-block;
+  justify-content: right;
+  margin-right: 3%;
+}
+
+.pages a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  margin: 0 10px;
+  width: 200px;
+  transition: transform 0.3s ease;
+  position: relative;
+  border-radius: 10px;
+}
+
+#top .pages .coupon-button {
+  border-radius: 15px;
+  border: none;
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  background-color: #0465cd;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.navbar_links {
+  margin-right: 2%;
+}
+
+.coupon-button:hover {
+  transform: scale(1.1);
+  background-color: #021257 !important;
+}
+
+.container {
+  width: 78%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 3.5% 7%;
+}
+
+.login {
+  width: 30%;
+  height: auto;
+  margin-bottom: 2%;
+}
+
+.login-button button {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center !important;
+  font-family: 'roboto', sans-serif;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  background-color: #0465cd;
+  padding: 8px 16px;
+  transition: transform 0.5s ease, background-color 0.3s, color 0.3s;
+}
+
+.login-button button:hover {
+  background-color: #021257;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.container h1,p {
+  width: 60%;
+  font-family: 'roboto', sans-serif;
+}
+.container h1 {
+  font-weight: bold;
+  margin-bottom: 2%;
+  color: black;
+}
+
+.container p {
+  color: rgb(255, 255, 255);
+
+}
+
+.top-text h1 {
+  font-size: 50px;
+}
+
+.top-text i {
+  font-weight: bold;
+  font-size: 60px;
+  color: rgb(254, 255, 202);
+  font-style: normal;
+}
+.top-text p{
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+
+#top-search {
+  width: 60%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+#top-search input {
+  width: 90%;
+  height: 65px;
+  border: none;
+  border-radius: 7px !important;
+  display: flex;
+  font-size: larger;
+}
+
+#top-search button {
+  background-color: #007bff !important;
+  position: absolute;
+  border-radius: 8px !important;
+  width: 7%;
+  text-align: center;
+  height: 50px;
+  right: 51.5%;
+  padding: 0;
+  margin: 0;
+  border: none !important;
+  color: #fff !important;
+  font-family: 'roboto', sans-serif !important;
+  font-size: 18px;
+  letter-spacing: 2px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#top-search button:hover {
+  background-color: #021257 !important;
+}
+
+#top-search button i {
+  font-style: normal;
+}
+/* Navigation Bar Styling */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styling */
+.navbar-logo {
+  margin-left: 3%;
+  width: 80px;
+  height: 80px; 
+  transition: transform 0.3s ease;
+ 
+}
+
+.navbar-logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Navigation Links */
+.nav-link {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  width: 180px;
+  color: #ffffff !important; /* Default text color */
+  transition: color 0.3s, transform 0.3s, text-decoration 0.3s; /* Smooth color and transform transition */
+  text-decoration: none; /* Remove underline by default */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Change this to your desired hover color */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+.auth-button:hover {
+  background-color: #007bff; /* Change to your desired hover color */
+  color: #fff; /* Change text color on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Dropdown Icon */
+.dropdown-icon {
+  border-radius: 50%; /* Ensure the icon is circular */
+}
+
+/* Search Input */
+#top-search .form-control {
+  transition: border-color 0.3s; /* Smooth border transition */
+}
+
+#top-search .form-control:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Light shadow effect on focus */
+}
+

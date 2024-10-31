@@ -1,0 +1,304 @@
+
+html, body {
+  width: auto;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+    place-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SignPage{
+    position: relative;
+    bottom: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .welcome {
+    width: 45%;
+    height: 700px;
+    text-wrap: pretty;
+    padding-left: 50px;
+    font-size: larger;
+    font-family: 'roboto', sans-serif;
+  }
+
+  .back_btn {
+    position: relative;
+    bottom: 15%;
+    color: white;
+  }
+
+  .back_btn label:hover {
+    cursor: pointer;
+    color: rgb(200, 200, 200);
+  }
+
+  .welcome h1 {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+  }
+
+  .welcome h1 i{
+    color: rgb(247, 148, 0);
+    font-style: normal;
+  }
+  
+  & {
+    interpolate-size: allow-keywords;
+  }
+
+  .welcome p {
+    color: rgb(255, 255, 255) !important;
+    font-size: 20px;
+    border-bottom: 1px solid #a7a7a700;
+    width: 90%;
+    line-height: 35px;
+    transition: 1s;
+    border: 10px solid #92919100;
+    overflow: hidden;
+  }
+
+  .welcome p:not(:hover) {
+    height: 3lh;
+  }
+  .main {
+    position: relative;
+    filter: none;
+    z-index: 2;
+    width: 60%;
+    height: 925px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    position: relative;
+    display: flex;
+    margin: 15px auto;
+    padding: 20px;
+  }
+  
+  .all_in{
+    background-color: #d9d9d9;
+    width: 45%;
+    padding: 10px 15px;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .heading{
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .heading h3{
+    font-size: 40px;
+    margin-top: 40px;
+    color: black;
+    z-index: 1;
+    font-weight: bold;
+  }
+  
+  .signin_frm {
+      width: 100%;
+      height: 100%;
+    }
+  
+  .inputs input {
+      display: block;
+      border: none;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      width: 100%;
+      height: 48px;
+      font-size: 18px;
+      padding: 15px;
+      box-sizing: border-box;
+  }
+  
+  .inputs input:focus {
+    outline: none;
+    border: 1px solid #94afeb;
+    box-shadow: 0px 0px 2px 2px rgb(94, 177, 250);
+  }
+
+  .inputs .names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .inputs .names input {
+    width: 48%;
+  }
+  
+  .inputs button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color:  rgb(75, 75, 75);
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow:0 2px 5px rgb(0 0 0 / 30%);
+    transition: 0.3s;
+  }
+
+  .inputs button:hover{
+    background-color:  rgb(0, 0, 0);
+    /* color: black; */
+  }
+  
+  .error{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  .bottomm{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .bottomm .separator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    
+  }
+  .bottomm .separator hr{
+    width: 35%;
+    border: none;
+    border-top: 1px solid #7c7c7c;
+  }
+
+  .bottomm .separator .or {
+    display: flex;
+    align-items: center;
+  }
+  .bottomm .separator h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 12%;
+  }
+  .bottomm .separator p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+  }
+  .bottomm .icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .bottomm .icons a {
+  
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    transition: transform 0.5s ease;
+  }
+  
+  .bottomm .icons a:hover {
+  transform: scale(1.3);
+  }
+  
+  .bottomm .icons i {
+    font-size: 24px;
+  }
+  
+  .loginAbs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 4%;
+  }
+  
+  .loginAbs p{
+    color: black;
+  }
+  
+  .loginAbs a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: width 0.3s ease;
+  }
+  
+  .loginAbs a:hover{
+    text-decoration: underline;
+  }
+  
+  .bkground {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+}
+
+.bkground video {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.bkground .p1 {
+    position: absolute;
+    text-align: center;
+    width: 62%;
+    letter-spacing: 2px;
+    line-height: 70px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(197, 129, 10);
+    z-index: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid rgba(197, 129, 10, 1);
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@media (max-width: 600px) {
+  .social-icons img {
+    width: 20%;
+  }
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 62%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: rgb(197, 129, 10); }
+}

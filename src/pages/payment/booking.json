@@ -1,0 +1,23 @@
+{
+    "tourImg": "https://images.pexels.com/photos/15127306/pexels-photo-15127306/free-photo-of-pyramids-and-sphinx-statue-in-desert.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "tourOverview": "pyramids of Giza Tour, included tickets & Lunch & Egyptologist guide",
+    "Travelers": {
+      "Adults": 2,
+      "Children": 1,
+      "Infants": 2
+    },
+    "Prices": {
+        "CurrentPricePerAdult": 25,
+        "CurrentPricePerKid":  15,
+        "CurrentPricePerInfant": 0
+    },
+    "Ages": {
+      "Adult": "13 - 99",
+      "Kid": "3 - 11",
+      "Infant": "0 - 2"
+    },
+    "Date": "Tuesday, November 12, 2024",
+    "Time": "10:00 AM",
+    "Location": "Cairo",
+    "Cancellation": "November 11"
+}
